@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7368552f2a.js" crossorigin="anonymous"></script>
+    <title>To-Do</title>
+</head>
+<body>
+
+    <header>
+        <h1>To-Do List</h1>
+
+        <form class="search">
+            <input type="text" name="search" placeholder="Search a To-Do"/>
+        </form>
+    </header>
+    
+    <ul class="toDos">
+        <li>
+          <span>Study JavaScript</span>
+          <i class="fa-solid fa-trash delete"></i>
+        </li>
+        <li>
+          <span>Search about Spread Operator</span>
+          <i class="fa-solid fa-trash delete"></i>
+        </li>
+        <li>
+          <span>Update my LinkeIn</span>
+          <i class="fa-solid fa-trash delete"></i>
+        </li>
+    </ul>
+
+        <form class="add">
+            <label>Add a new todo...</label>
+            <input type="text" name="add"/>
+        </form>
+
+  
+    <script src="app.js"></script>
+</body>
+</html>
